@@ -33,7 +33,7 @@ export default function Header() {
                 <div className="flex flex-col items-center text-center">
                     <div className="relative h-[120px] w-[120px] overflow-hidden rounded-full border">
                         <Image
-                            src="/profile/profile.JPG"
+                            src="/profile/profile.jpg"
                             alt="Shital Sapkota"
                             fill
                             sizes="120px"
