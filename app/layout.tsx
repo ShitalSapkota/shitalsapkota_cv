@@ -6,8 +6,32 @@ import Header from "@/components/Pages/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shital Sapkota CV",
-  description: "Shital Sapkota's Portfolio Website",
+  title: {
+    default: "Shital Sapkota | Full Stack Developer",
+    template: "%s | Shital Sapkota"
+  },
+  description: "Professional portfolio of Shital Sapkota, a Full Stack Developer specializing in Next.js, TypeScript, and modern web technologies.",
+  keywords: ["Shital Sapkota", "Full Stack Developer", "Portfolio", "Next.js", "React", "TypeScript", "Web Development"],
+  authors: [{ name: "Shital Sapkota" }],
+  creator: "Shital Sapkota",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://shitalsapkotaportfolio.vercel.app/",
+    title: "Shital Sapkota | Full Stack Developer",
+    description: "Professional portfolio of Shital Sapkota, a Full Stack Developer specializing in Next.js, TypeScript, and modern web technologies.",
+    siteName: "Shital Sapkota Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shital Sapkota | Full Stack Developer",
+    description: "Professional portfolio of Shital Sapkota, a Full Stack Developer specializing in Next.js, TypeScript, and modern web technologies.",
+    creator: "@shitalsapkota",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
