@@ -86,7 +86,7 @@ export default function Header() {
                     {/* Social links */}
                     <div className="mt-4 flex gap-4">
                         <Link
-                            href="https://linkedin.com/in/shitalsapkota"
+                            href="https://linkedin.com/in/shitalsapkota1994"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-muted-foreground transition-colors hover:text-primary"
@@ -95,7 +95,7 @@ export default function Header() {
                         </Link>
 
                         <Link
-                            href="https://github.com/shitalsapkota"
+                            href="https://github.com/ShitalSapkota"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-muted-foreground transition-colors hover:text-primary"
