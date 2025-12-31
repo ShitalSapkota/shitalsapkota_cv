@@ -30,6 +30,28 @@ A professional, high-performance, and fully responsive portfolio website built w
 
 ---
 
+## 🚀 Future Roadmap
+
+To evolve this portfolio into a full-scale production application, the following enhancements are planned:
+
+### 1. Robust Backend & API Architecture
+- **NestJS Integration**: Transitioning from a static site to a dynamic one by integrating a **NestJS** backend for enterprise-grade scalability and modular architecture.
+- **Advanced API Routes**: Leveraging **Next.js API Routes** (Edge Runtime) to handle server-side logic, form processing, and third-party integrations with high performance.
+
+### 2. Data Persistence & Management
+- **Database Integration**: Implementing **PostgreSQL** or **MongoDB** using **Prisma ORM** to store project data, blog posts, and contact inquiries.
+- **Headless CMS**: Integrating **Sanity.io** or **Contentful** for seamless content management without code redeploys.
+
+### 3. Enhanced Interactivity
+- **Button Actions & Logic**: Developing sophisticated state-driven components and interactive buttons for real-time user feedback and complex workflows.
+- **Authentication**: Adding **NextAuth.js** to provide a secure administrative dashboard for updating portfolio content directly through the UI.
+
+### 4. DevOps & Quality Assurance
+- **CI/CD Pipeline**: Setting up automated workflows using **GitHub Actions** for continuous testing and deployment.
+- **Testing Suite**: Implementing unit and integration tests using **Jest** and **React Testing Library** to ensure codebase reliability.
+
+---
+
 ## 📁 Project Structure
 
 Understanding the layout of this project helps in quick customization:
@@ -56,19 +78,6 @@ cv_app/
 ├── public/               # Static assets (images, profile pictures, manifest)
 └── tailwind.config.ts    # Tailwind CSS design system configuration
 ```
-
----
-
-## 💡 Ideas for Customization
-
-This project is a solid foundation. Here are some ideas to make it your own or take it further:
-
-1.  **Dark Mode Toggle**: The project uses Tailwind and is compatible with `next-themes`. Adding a theme switcher would be a great addition.
-2.  **CMS Integration**: Connect the Portfolio section to a Headless CMS like **Sanity** or **Contentful** to manage projects without editing code.
-3.  **Blog Section**: Add a `/blog` route using MDX to share your thoughts and technical tutorials.
-4.  **Backend Integration**: Replace the mock submission in `Contact.tsx` with a real service like **Formspree**, **EmailJS**, or a custom **Next.js API Route**.
-5.  **Interactive Resume**: Enhance the Resume section with a "Download PDF" button that generates a CV on the fly.
-6.  **Animations**: Integrate **Framer Motion** for scroll-triggered animations and smoother transitions between sections.
 
 ---
 
